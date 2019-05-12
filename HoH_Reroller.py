@@ -24,14 +24,14 @@ while True:
 		break;
 	else:
 		pyautogui.moveTo(850, 750);
-		if str(rerollImage) != 'None':
+		if str(rerollImage) != 'None' or str(rerollImageLight) !='None' or str(rerollImageClicked) !='None':
 			click();
-		else:
-			if str(rerollImageLight !='None'):
-				click();
-			else:
-				if str(rerollImageClicked !='None'):	
-					click();
+		# else:
+		# 	if str(rerollImageLight !='None'):
+		# 		click();
+		# 	else:
+		# 		if str(rerollImageClicked) !='None':	
+		# 			click();
 
 	if count == 100:
 		break;
